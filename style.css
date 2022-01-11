@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  /* Styling contents */
+  
+  article {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  section {
+    width: 40rem;
+  }
+  
+  img {
+    width: 40rem;
+    height: 50rem;
+    object-fit: cover;
+  }
+  
+  .description {
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-family: inherit;
+    font-size: 2.3rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .simbol {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  
+  .star {
+    margin-right: 1rem;
+    color: yellow;
+  }
+  
+  .rating {
+    margin-right: 3rem;
+    color: rgb(175, 167, 167);
+  }
+  
+  .likes {
+    margin-right: 1rem;
+  }
+  .heart {
+    color: rgb(175, 167, 167);
+  }
+  
+  span .desc {
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: 300;
+    color: #777777;
+    text-align: center;
+  }
+   .desc {
+      color: gray;
+      text-align: center;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  button {
+    margin-right: 1rem;
+    padding: 0.7rem 3.5rem;
+    border: 0.5rem solid black;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  
+  button.cart {
+    background-color: black;
+    color: #fff;
+  }
+  
+  button.view {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  button.cart:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  button.view:hover {
+    background-color: black;
+    color: #fff;
+  }
